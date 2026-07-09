@@ -12,21 +12,9 @@ class Footer extends HTMLElement {
               <h5>Explore</h5>
               <ul>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="principal-message.html">Principal's Message</a></li>
                 <li><a href="academics.html">Academics</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-              </ul>
-            </div>
-            <div>
-              <h5>Resources</h5>
-              <ul>
-                <li><a href="achievements.html">Achievements</a></li>
-                <li><a href="news-events.html">News &amp; Events</a></li>
-                <li><a href="faculty.html">Faculty</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="downloads.html">Downloads</a></li>
-                <li><a href="notifications.html">Notice Board</a></li>
               </ul>
             </div>
             <div>
