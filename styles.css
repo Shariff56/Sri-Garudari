@@ -652,11 +652,15 @@ section {
 }
 
 .events-dance .section-head {
-  text-align: center;
+  text-align: left;
 }
 
 .events-dance .section-head .eyebrow {
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.events-dance .section-head p {
+  margin: 0;
 }
 
 .events-grid {
