@@ -691,7 +691,7 @@ section {
   border-radius: var(--radius);
   padding: 28px;
   transition: var(--transition);
-  border: 1px solid transparent;
+  border: 1px solid var(--border);
 }
 
 .fac-card:hover {
@@ -721,14 +721,6 @@ section {
 
 .fac-card:hover p { color: rgba(255,255,255,0.75); }
 
-.fac-card img {
-  width: calc(100% + 56px);
-  aspect-ratio: 16/9;
-  object-fit: cover;
-  margin: -28px -28px 16px -28px;
-  display: block;
-  border-radius: var(--radius) var(--radius) 0 0;
-}
 
 /* ============ PRESS / NEWS SECTION ============ */
 .press {
