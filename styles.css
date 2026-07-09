@@ -42,6 +42,7 @@ body {
   font-family: var(--font-body);
   color: var(--text-dark);
   line-height: 1.7;
+  font-size: 1.125rem;
   background: var(--bg-light);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -95,18 +96,24 @@ section {
 
 .section-head {
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-head .eyebrow {
+  justify-content: center;
 }
 
 .section-head h2 {
-  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-size: clamp(2.2rem, 3.5vw, 2.8rem);
   color: var(--primary);
   margin-bottom: 16px;
 }
 
 .section-head p {
   color: var(--text-light);
-  font-size: 1.05rem;
-  max-width: 600px;
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -364,10 +371,10 @@ section {
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   color: var(--white);
   margin-bottom: 20px;
-  max-width: 700px;
+  max-width: 800px;
   transform: translateY(20px);
   opacity: 0;
   animation: fadeUp 0.8s ease forwards 0.5s;
@@ -391,9 +398,9 @@ section {
 }
 
 .hero p {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   color: rgba(255,255,255,0.85);
-  max-width: 560px;
+  max-width: 600px;
   margin-bottom: 36px;
   transform: translateY(20px);
   opacity: 0;
@@ -635,7 +642,7 @@ section {
 
 .program-card p {
   color: rgba(255,255,255,0.75);
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 /* ============ EVENTS & DANCE SECTION ============ */
@@ -708,7 +715,7 @@ section {
 
 .fac-card p {
   color: var(--text-light);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 
