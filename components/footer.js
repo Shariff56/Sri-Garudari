@@ -18,9 +18,10 @@ class Footer extends HTMLElement {
               </ul>
             </div>
             <div>
-              <h5>Contact</h5>
+              <h5>Contact Us</h5>
               <ul>
                 <li>+91 63627 77569</li>
+                <li>861813401</li>
                 <li>newgarudadri2018@gmail.com</li>
                 <li>Shidlaghatta – 562105</li>
               </ul>
