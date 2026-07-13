@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube-nocookie.com;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="Discover the campus facilities at Sri Garudadri English Public School, including science labs, library, smart classrooms, and sports grounds.">
 <title>Facilities — Sri Garudadri English Public School</title>
 <link rel="stylesheet" href="styles.css">
 <script src="components/header.js"></script>
@@ -11,6 +14,8 @@
 <body>
 
 <sgeps-header></sgeps-header>
+
+<main>
 
 <header class="page-hero">
   <div class="container">
@@ -31,11 +36,11 @@
     <div class="fac-grid reveal">
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><path d="M12 4L12 20M12 4L6 10M12 4L18 10" stroke="currentColor" stroke-width="1.4"/></svg>
-        <h4>Science Labs</h4><p>Fully equipped facilities for hands-on practical work.</p>
+        <h4>Science Labs</h4><p>A hands-on environment equipped with microscopes, models, and safety gear, allowing students to conduct experiments and explore scientific concepts practically.</p>
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M8 22L16 22M12 18V22" stroke="currentColor" stroke-width="1.4"/></svg>
-        <h4>Smart Classrooms</h4><p>Projector-enabled rooms for interactive lessons.</p>
+        <h4>Smart Classrooms</h4><p>Classrooms integrated with projectors and smart-boards that transform traditional learning into an interactive, visual, and engaging experience.</p>
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V9L12 4L20 9V19H4Z" stroke="currentColor" stroke-width="1.4"/><path d="M9 19V13H15V19" stroke="currentColor" stroke-width="1.4"/></svg>
@@ -47,15 +52,15 @@
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 3 7 3 12C3 17 7 21 12 21C17 21 21 17 21 12" stroke="currentColor" stroke-width="1.4"/><path d="M12 3V12L18 8" stroke="currentColor" stroke-width="1.4"/></svg>
-        <h4>Wi-Fi Campus</h4><p>Connected classrooms and staff spaces.</p>
+        <h4>Wi-Fi Campus</h4><p>A high-speed, secure wireless network across campus that supports digital learning, research, and administrative tasks.</p>
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5C4 18.1193 5.11929 17 6.5 17H20V5H6.5C5.11929 5 4 6.11929 4 7.5V19.5Z" stroke="currentColor" stroke-width="1.4"/><path d="M4 19.5C4 20.8807 5.11929 22 6.5 22H20V17H6.5" stroke="currentColor" stroke-width="1.4"/></svg>
-        <h4>Library</h4><p>Well-stocked reading and reference space.</p>
+        <h4>Library</h4><p>A quiet, well-stocked sanctuary containing hundreds of academic books, encyclopedias, and literature to cultivate a lifelong love for reading and research.</p>
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M8 12C8 9 9.5 6.5 12 6.5C14.5 6.5 16 9 16 12C16 15 14.5 17.5 12 17.5C9.5 17.5 8 15 8 12Z" stroke="currentColor" stroke-width="1.4"/></svg>
-        <h4>Sports Ground</h4><p>Outdoor space for games and physical education.</p>
+        <h4>Sports Ground</h4><p>A dedicated playground for physical education, featuring courts for multiple sports to promote teamwork, fitness, and physical well-being.</p>
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><rect x="7" y="7" width="10" height="7" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M9 7V5.5C9 4.7 9.7 4 10.5 4H13.5C14.3 4 15 4.7 15 5.5V7" stroke="currentColor" stroke-width="1.4"/><path d="M12 17V20M9 20H15" stroke="currentColor" stroke-width="1.4"/></svg>
@@ -67,11 +72,13 @@
       </div>
       <div class="fac-card">
         <svg viewBox="0 0 24 24" fill="none"><path d="M17 20H7C5.9 20 5 19.1 5 18V6C5 4.9 5.9 4 7 4H14L19 9V18C19 19.1 18.1 20 17 20Z" stroke="currentColor" stroke-width="1.4"/><path d="M9 13H15M9 16H13" stroke="currentColor" stroke-width="1.4"/></svg>
-        <h4>Parent–Teacher Room</h4><p>Dedicated space for meetings and progress reviews.</p>
+        <h4>Computer Lab</h4><p>Our modern computer lab is fully equipped with high-speed internet and the latest software to ensure every student gains essential digital literacy and coding skills.</p>
       </div>
     </div>
   </div>
 </section>
+
+</main>
 
 <sgeps-footer></sgeps-footer>
 

@@ -101,6 +101,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lightboxTriggers.forEach(card => {
       card.addEventListener('click', () => {
+        if (card.querySelector('iframe')) return; // Ignore video/iframe cards
+        
         const img = card.querySelector('img');
         if (img) {
           lightboxImg.src = img.src;

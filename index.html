@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube-nocookie.com;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="description"
     content="Sri Garudadri English Public School, Shidlaghatta — an English-medium, State Board school under Vidyasiri Education Trust.">
   <title>Sri Garudadri English Public School — Shidlaghatta</title>
@@ -46,14 +48,17 @@
     <div class="hero-dots" id="heroDots"></div>
   </header>
 
+<main>
+
   <!-- ============ ABOUT PREVIEW ============ -->
   <section class="about-preview">
     <div class="container about-grid">
       <div class="about-copy reveal">
         <p class="eyebrow">About the school</p>
-        <h2>Holistic education, rooted in values.</h2>
+        <h2>Nurturing Minds, Building Character</h2>
         <p>It gives us immense pleasure to welcome you to our school community. We believe education is not merely the
-          acquisition of knowledge but the holistic development of an individual's character, values, and skills.</p>
+          acquisition of knowledge but the holistic development of an individual's character, values, and skills. Since our founding in 2017, we have dedicated ourselves to creating a nurturing and supportive environment where every child is encouraged to discover their unique potential.</p>
+        <p>Located in the heart of Shidlaghatta, our State Board, English-medium curriculum is designed to challenge students intellectually while fostering creativity, critical thinking, and a strong sense of community responsibility.</p>
         <p>Our mission is to provide a nurturing and stimulating environment where every child is encouraged to discover
           their potential, pursue excellence, and grow into a responsible, compassionate citizen.</p>
         <div class="about-stats">
@@ -63,7 +68,7 @@
         </div>
       </div>
       <div class="about-visual reveal">
-        <img src="SG - photos/School from front side.jpg" alt="School from front side at Sri Garudadri">
+        <img src="SG - photos/School from front side.jpg" alt="School from front side at Sri Garudadri" loading="lazy">
         <div class="crest">
           <svg viewBox="0 0 120 120" fill="none">
             <circle cx="60" cy="60" r="52" stroke="currentColor" stroke-width="1" />
@@ -85,18 +90,21 @@
       </div>
       <div class="program-grid reveal">
         <div class="program-card">
+          <img src="SG - photos/Class room.jpg" alt="Academic Excellence">
           <span class="num">01</span>
           <h3>Academic Excellence</h3>
           <p>A State Board, English-medium curriculum delivered with discipline, structure, and consistent assessment.
           </p>
         </div>
         <div class="program-card">
+          <img src="SG - photos/Yoga day.jpg" alt="Character and Values">
           <span class="num">02</span>
           <h3>Character & Values</h3>
           <p>Creativity, discipline, and leadership are built into daily school life — not treated as extracurricular
             add-ons.</p>
         </div>
         <div class="program-card">
+          <img src="SG - photos/Group photo.jpg" alt="Community Partnership">
           <span class="num">03</span>
           <h3>Community Partnership</h3>
           <p>Teachers, parents, and the wider community work together to shape confident, future-ready individuals.</p>
@@ -132,26 +140,29 @@
       <div class="section-head reveal">
         <p class="eyebrow">In the news</p>
         <h2>Coverage from local press.</h2>
-        <p>Highlights of our school's events and achievements featured in local newspapers.</p>
+        <p>Highlights of our school's events and achievements featured in local newspapers and media.</p>
       </div>
-      <div class="press-grid reveal">
-        <div class="press-card">
-          <img src="SG - photos/News Paper -1.jpeg" alt="Newspaper coverage 1">
+      <div class="press-slider reveal">
+        <div class="press-card video-card">
+          <iframe src="https://www.youtube-nocookie.com/embed/JAxuoz1BWqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="press-card">
-          <img src="SG - photos/News Paper -2.jpeg" alt="Newspaper coverage 2">
+          <img loading="lazy" src="SG - photos/News Paper -1.jpeg" alt="Newspaper coverage 1">
         </div>
         <div class="press-card">
-          <img src="SG - photos/News Paper -3.jpeg" alt="Newspaper coverage 3">
+          <img loading="lazy" src="SG - photos/News Paper -2.jpeg" alt="Newspaper coverage 2">
         </div>
         <div class="press-card">
-          <img src="SG - photos/News Paper -4.jpeg" alt="Newspaper coverage 4">
+          <img loading="lazy" src="SG - photos/News Paper -3.jpeg" alt="Newspaper coverage 3">
         </div>
         <div class="press-card">
-          <img src="SG - photos/News Paper -5.jpeg" alt="Newspaper coverage 5">
+          <img loading="lazy" src="SG - photos/News Paper -4.jpeg" alt="Newspaper coverage 4">
         </div>
         <div class="press-card">
-          <img src="SG - photos/News Paper -6.jpeg" alt="Newspaper coverage 6">
+          <img loading="lazy" src="SG - photos/News Paper -5.jpeg" alt="Newspaper coverage 5">
+        </div>
+        <div class="press-card">
+          <img loading="lazy" src="SG - photos/News Paper -6.jpeg" alt="Newspaper coverage 6">
         </div>
       </div>
     </div>
@@ -167,7 +178,9 @@
     </div>
   </section>
 
-  <sgeps-footer></sgeps-footer>
+  </main>
+
+<sgeps-footer></sgeps-footer>
 
   <script src="script.js"></script>
 </body>

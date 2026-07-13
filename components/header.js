@@ -4,12 +4,7 @@ class Header extends HTMLElement {
       <nav class="nav" id="nav">
         <div class="nav-inner">
           <a href="index.html" class="brand">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="22.5" stroke="#C6A15B" stroke-width="1.5"/>
-              <path d="M24 12L36 18L24 24L12 18L24 12Z" stroke="#C6A15B" stroke-width="1.4" stroke-linejoin="round"/>
-              <path d="M18 21V28C18 28 20.5 31 24 31C27.5 31 30 28 30 28V21" stroke="#C6A15B" stroke-width="1.4"/>
-              <path d="M33 19.5V26" stroke="#C6A15B" stroke-width="1.4" stroke-linecap="round"/>
-            </svg>
+            <img src="SG - photos/logo.jpg" alt="Sri Garudadri Logo" class="brand-logo">
             <div class="brand-text">Sri Garudadri
               <span>English Public School</span>
             </div>
@@ -21,7 +16,7 @@ class Header extends HTMLElement {
             <li><a href="facilities.html">Facilities</a></li>
             <li><a href="gallery.html">Gallery</a></li>
           </ul>
-          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
         </div>
       </nav>
     `;
@@ -62,7 +57,8 @@ class Header extends HTMLElement {
     const navLinks = this.querySelector('#navLinks');
     if (navToggle && navLinks) {
       navToggle.addEventListener('click', () => {
-        navToggle.classList.toggle('active');
+        const isActive = navToggle.classList.toggle('active');
+        navToggle.setAttribute('aria-expanded', isActive);
         navLinks.classList.toggle('active');
       });
 
@@ -70,6 +66,7 @@ class Header extends HTMLElement {
       navLinks.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
           navToggle.classList.remove('active');
+          navToggle.setAttribute('aria-expanded', 'false');
           navLinks.classList.remove('active');
         });
       });

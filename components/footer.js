@@ -27,7 +27,7 @@ class Footer extends HTMLElement {
             </div>
           </div>
           <div class="foot-bottom">
-            <span>© ${new Date().getFullYear()} Sri Garudadri English Public School. All rights reserved.</span>
+            <span>© ${new Date().getFullYear()} Sri Garudadri English Public School. All rights reserved. <a href="privacy.html" style="color:var(--text-light); text-decoration:underline; margin-left:12px;">Privacy Policy (Draft)</a></span>
             <span>Site by OPTI-X</span>
           </div>
         </div>

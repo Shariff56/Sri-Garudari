@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube-nocookie.com;">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Browse through the vibrant gallery of Sri Garudadri English Public School, featuring campus life, events, trips, and science exhibitions.">
   <title>Gallery — Sri Garudadri English Public School</title>
   <link rel="stylesheet" href="styles.css">
   <script src="components/header.js"></script>
@@ -14,11 +17,14 @@
 
   <sgeps-header></sgeps-header>
 
+<main>
+
   <header class="page-hero">
     <div class="container">
       <p class="eyebrow" style="justify-content:center;color:var(--gold);">Photo &amp; video</p>
       <h1>Life on campus.</h1>
-      <p>Explore the moments, facilities, and daily activities that define the Sri Garudadri experience.</p>
+      <p>Explore the moments, facilities, and daily activities that define the Sri Garudadri experience. From vibrant cultural festivals and educational field trips to our well-equipped campus facilities, our gallery captures the essence of student life.</p>
+      <p>We believe that learning extends far beyond the classroom. These visual memories showcase our commitment to holistic education, character building, and fostering a strong sense of community among our students and staff.</p>
     </div>
   </header>
 
@@ -30,144 +36,279 @@
         <button class="filter-btn" data-filter="events">Events & Celebrations</button>
         <button class="filter-btn" data-filter="trips">Activities & Trips</button>
         <button class="filter-btn" data-filter="campus">Campus & Community</button>
+        <button class="filter-btn" data-filter="news">Press & News</button>
       </div>
 
       <div class="gallery-grid">
         <!-- Events -->
         <div class="gallery-tile wide" data-category="events">
-          <img src="SG - photos/August 15 independance day.jpg" alt="Independence Day">
+          <img loading="lazy" src="SG - photos/August 15 independance day.jpg" alt="Independence Day">
+          <span>Independence Day</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Independance_day.jpg" alt="Independence Day">
+          <span>Independence Day</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Independance_day-2.jpg" alt="Independence Day">
           <span>Independence Day</span>
         </div>
         <div class="gallery-tile tall" data-category="events">
-          <img src="SG - photos/Sankranti photo-1.jpg" alt="Sankranti Celebration">
+          <img loading="lazy" src="SG - photos/Sankranti photo-1.jpg" alt="Sankranti Celebration">
           <span>Sankranti Celebration</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Sankranti photo-2.jpg" alt="Sankranti Festival">
+          <img loading="lazy" src="SG - photos/Sankranti photo-2.jpg" alt="Sankranti Festival">
           <span>Sankranti Festival</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Sankranti photo-3.jpg" alt="Festive Celebrations">
+          <img loading="lazy" src="SG - photos/Sankranti photo-3.jpg" alt="Festive Celebrations">
           <span>Festive Celebrations</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Sankranti photo-4.jpg" alt="Cultural Dress">
+          <img loading="lazy" src="SG - photos/Sankranti photo-4.jpg" alt="Cultural Dress">
           <span>Cultural Dress</span>
         </div>
         <div class="gallery-tile wide" data-category="events">
-          <img src="SG - photos/Event Dance group 1.jpg" alt="Dance Performance">
+          <img loading="lazy" src="SG - photos/Event Dance group 1.jpg" alt="Dance Performance">
           <span>Dance Performance</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Event Dance group 2.jpg" alt="Annual Day Dance">
+          <img loading="lazy" src="SG - photos/Event Dance group 2.jpg" alt="Annual Day Dance">
           <span>Annual Day Dance</span>
         </div>
         <div class="gallery-tile tall" data-category="events">
-          <img src="SG - photos/Event Dance group 3.jpg" alt="Folk Dance">
+          <img loading="lazy" src="SG - photos/Event Dance group 3.jpg" alt="Folk Dance">
           <span>Folk Dance</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Event Dance group 4.jpg" alt="Group Dance">
+          <img loading="lazy" src="SG - photos/Event Dance group 4.jpg" alt="Group Dance">
           <span>Group Dance</span>
         </div>
-
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Event Dance group 6.jpg" alt="Student Performance">
+          <img loading="lazy" src="SG - photos/Event Dance group 5.jpg" alt="Student Performance">
+          <span>Student Performance</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Event Dance group 6.jpg" alt="Student Performance">
           <span>Student Performance</span>
         </div>
         <div class="gallery-tile wide" data-category="events">
-          <img src="SG - photos/Event Dance group 7.jpg" alt="Stage Event">
+          <img loading="lazy" src="SG - photos/Event Dance group 7.jpg" alt="Stage Event">
           <span>Stage Event</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Event Dance group 8.jpg" alt="School Function">
+          <img loading="lazy" src="SG - photos/Event Dance group 8.jpg" alt="School Function">
           <span>School Function</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Stage photo.jpg" alt="On Stage">
+          <img loading="lazy" src="SG - photos/Stage photo.jpg" alt="On Stage">
           <span>On Stage</span>
         </div>
         <div class="gallery-tile" data-category="events">
-          <img src="SG - photos/Art.jpg" alt="Art Exhibition">
+          <img loading="lazy" src="SG - photos/Art.jpg" alt="Art Exhibition">
           <span>Art Exhibition</span>
+        </div>
+        <div class="gallery-tile wide" data-category="events">
+          <img loading="lazy" src="SG - photos/Sports_day_groupphoto.jpg" alt="Sports Day">
+          <span>Sports Day Group</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Yoga day.jpg" alt="Yoga Day">
+          <span>Yoga Day</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Yoga.jpg" alt="Yoga Session">
+          <span>Yoga Session</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Science eximachine - 1.jpeg" alt="Science Exhibition">
+          <span>Science Exhibition</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Science eximachine - 2.jpeg" alt="Science Exhibition">
+          <span>Science Exhibition</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Science eximachine - 3.jpeg" alt="Science Exhibition">
+          <span>Science Exhibition</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Science eximachine - 4.jpeg" alt="Science Exhibition">
+          <span>Science Exhibition</span>
+        </div>
+        <div class="gallery-tile" data-category="events">
+          <img loading="lazy" src="SG - photos/Science eximachine - 5.jpeg" alt="Science Exhibition">
+          <span>Science Exhibition</span>
         </div>
 
         <!-- Trips & Activities -->
         <div class="gallery-tile tall" data-category="trips">
-          <img src="SG - photos/Marchfast NCC.jpg" alt="NCC March">
+          <img loading="lazy" src="SG - photos/Marchfast NCC.jpg" alt="NCC March">
+          <span>NCC March Fast</span>
+        </div>
+        <div class="gallery-tile" data-category="trips">
+          <img loading="lazy" src="SG - photos/Machfast-2.jpg" alt="NCC March Fast 2">
           <span>NCC March Fast</span>
         </div>
         <div class="gallery-tile wide" data-category="trips">
-          <img src="SG - photos/Visited aero station.jpg" alt="Aero Station Visit">
+          <img loading="lazy" src="SG - photos/Visited aero station.jpg" alt="Aero Station Visit">
           <span>Aero Station Field Trip</span>
         </div>
         <div class="gallery-tile" data-category="trips">
-          <img src="SG - photos/Visited vidhan sadha banglore.jpg" alt="Vidhana Soudha">
+          <img loading="lazy" src="SG - photos/aircraft-trip.jpg" alt="Aircraft Trip">
+          <span>Aircraft Trip</span>
+        </div>
+        <div class="gallery-tile" data-category="trips">
+          <img loading="lazy" src="SG - photos/Group_photo_aeroplan.jpg" alt="Aero Trip Group">
+          <span>Aero Trip Group</span>
+        </div>
+        <div class="gallery-tile" data-category="trips">
+          <img loading="lazy" src="SG - photos/Visited vidhan sadha banglore.jpg" alt="Vidhana Soudha">
           <span>Vidhana Soudha Visit</span>
         </div>
         <div class="gallery-tile" data-category="trips">
-          <img src="SG - photos/Camp student.jpg" alt="Student Camp">
+          <img loading="lazy" src="SG - photos/Camp student.jpg" alt="Student Camp">
           <span>Student Camp</span>
         </div>
         <div class="gallery-tile" data-category="trips">
-          <img src="SG - photos/Visited mentally poor kids photo-1.jpeg" alt="Community Service">
+          <img loading="lazy" src="SG - photos/Visited mentally poor kids photo-1.jpeg" alt="Community Service">
           <span>Community Service</span>
         </div>
         <div class="gallery-tile" data-category="trips">
-          <img src="SG - photos/Visited mentally poor kids photo-2.jpeg" alt="Outreach">
+          <img loading="lazy" src="SG - photos/Visited mentally poor kids photo-2.jpeg" alt="Outreach">
           <span>Outreach Program</span>
         </div>
         <div class="gallery-tile" data-category="trips">
-          <img src="SG - photos/Visited mentally poor kids photo-3.jpeg" alt="Social Visit">
+          <img loading="lazy" src="SG - photos/Visited mentally poor kids photo-3.jpeg" alt="Social Visit">
           <span>Social Visit</span>
         </div>
         <div class="gallery-tile wide" data-category="trips">
-          <img src="SG - photos/Visited group photo.jpg" alt="Field Trip Group">
+          <img loading="lazy" src="SG - photos/Visited group photo.jpg" alt="Field Trip Group">
           <span>Field Trip Group</span>
+        </div>
+        <div class="gallery-tile" data-category="trips">
+          <img loading="lazy" src="SG - photos/Industrial_visit.jpg" alt="Industrial Visit">
+          <span>Industrial Visit</span>
+        </div>
+        <div class="gallery-tile" data-category="trips">
+          <img loading="lazy" src="SG - photos/boat-trip.jpg" alt="Boat Trip">
+          <span>Boat Trip</span>
+        </div>
+        <div class="gallery-tile" data-category="trips">
+          <img loading="lazy" src="SG - photos/trip-shiva_photo.jpg" alt="Trip Memory">
+          <span>Trip Memory</span>
         </div>
 
         <!-- Campus -->
         <div class="gallery-tile wide" data-category="campus">
-          <img src="SG - photos/School from front side.jpg" alt="Campus Overview">
+          <img loading="lazy" src="SG - photos/School from front side.jpg" alt="Campus Overview">
           <span>Campus Overview</span>
         </div>
         <div class="gallery-tile" data-category="campus">
-          <img src="SG - photos/Gate.jpg" alt="School Gate">
+          <img loading="lazy" src="SG - photos/Gate.jpg" alt="School Gate">
           <span>School Gate</span>
         </div>
         <div class="gallery-tile tall" data-category="campus">
-          <img src="SG - photos/PlayGround.jpg" alt="Playground">
+          <img loading="lazy" src="SG - photos/PlayGround.jpg" alt="Playground">
           <span>Sports Playground</span>
         </div>
         <div class="gallery-tile" data-category="campus">
-          <img src="SG - photos/Library.jpg" alt="Library">
+          <img loading="lazy" src="SG - photos/Library.jpg" alt="Library">
           <span>Library</span>
         </div>
         <div class="gallery-tile" data-category="campus">
-          <img src="SG - photos/Computer lab.jpg" alt="Computer Lab">
+          <img loading="lazy" src="SG - photos/Computer lab.jpg" alt="Computer Lab">
           <span>Computer Lab</span>
         </div>
         <div class="gallery-tile" data-category="campus">
-          <img src="SG - photos/Chemistry lab.jpg" alt="Science Lab">
+          <img loading="lazy" src="SG - photos/Chemistry lab.jpg" alt="Science Lab">
           <span>Science Lab</span>
         </div>
         <div class="gallery-tile" data-category="campus">
-          <img src="SG - photos/Class room.jpg" alt="Classroom">
+          <img loading="lazy" src="SG - photos/Class room.jpg" alt="Classroom">
           <span>Classroom</span>
         </div>
         <div class="gallery-tile wide" data-category="campus">
-          <img src="SG - photos/Group photo.jpg" alt="Community">
+          <img loading="lazy" src="SG - photos/Group photo.jpg" alt="Community">
           <span>Student Community</span>
         </div>
         <div class="gallery-tile" data-category="campus">
-          <img src="SG - photos/Shiva and gruop photo.jpg" alt="Teachers and Students">
+          <img loading="lazy" src="SG - photos/Shiva and gruop photo.jpg" alt="Teachers and Students">
           <span>Teachers and Students</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/Chairman.jpg" alt="Chairman">
+          <span>Chairman</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/Principal.jpg" alt="Principal">
+          <span>Principal</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/WhatsApp Image 2026-07-06 at 4.49.20 PM.jpeg" alt="Campus Event">
+          <span>Campus Event</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/c.jpeg" alt="Campus Detail">
+          <span>Campus Detail</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/Scanned_20260706_142342_page-0028.jpg" alt="Document 1">
+          <span>School Record</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/Scanned_20260706_142342_page-0029.jpg" alt="Document 2">
+          <span>School Record</span>
+        </div>
+        <div class="gallery-tile" data-category="campus">
+          <img loading="lazy" src="SG - photos/Scanned_20260706_142342_page-0038.jpg" alt="Document 3">
+          <span>School Record</span>
+        </div>
+        <div class="gallery-tile wide" data-category="campus">
+          <img loading="lazy" src="SG - photos/school-buses.jpg" alt="School Buses Fleet">
+          <span>School Transportation</span>
+        </div>
+        <div class="gallery-tile wide" data-category="campus">
+          <img loading="lazy" src="SG - photos/boarding-bus.jpg" alt="Students Boarding Bus">
+          <span>Safe Commute</span>
+        </div>
+
+        <!-- Press & News -->
+        <div class="gallery-tile video-tile" data-category="news" style="grid-column: span 2;">
+          <iframe width="100%" height="250" src="https://www.youtube-nocookie.com/embed/JAxuoz1BWqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: var(--radius);"></iframe>
+        </div>
+        <div class="gallery-tile" data-category="news">
+          <img loading="lazy" src="SG - photos/News Paper -1.jpeg" alt="News Coverage 1">
+          <span>Press Coverage</span>
+        </div>
+        <div class="gallery-tile" data-category="news">
+          <img loading="lazy" src="SG - photos/News Paper -2.jpeg" alt="News Coverage 2">
+          <span>Press Coverage</span>
+        </div>
+        <div class="gallery-tile" data-category="news">
+          <img loading="lazy" src="SG - photos/News Paper -3.jpeg" alt="News Coverage 3">
+          <span>Press Coverage</span>
+        </div>
+        <div class="gallery-tile" data-category="news">
+          <img src="SG - photos/News Paper -4.jpeg" alt="News Coverage 4">
+          <span>Press Coverage</span>
+        </div>
+        <div class="gallery-tile" data-category="news">
+          <img src="SG - photos/News Paper -5.jpeg" alt="News Coverage 5">
+          <span>Press Coverage</span>
+        </div>
+        <div class="gallery-tile" data-category="news">
+          <img src="SG - photos/News Paper -6.jpeg" alt="News Coverage 6">
+          <span>Press Coverage</span>
         </div>
       </div>
     </div>
   </section>
 
-  <sgeps-footer></sgeps-footer>
+  </main>
+
+<sgeps-footer></sgeps-footer>
 
   <script src="script.js"></script>
 </body>
